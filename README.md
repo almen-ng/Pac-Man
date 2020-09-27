@@ -1,2 +1,2 @@
-# Pacman
- Pacman written in Turing
+# Pac Man
+ Pac Man written in Turing
