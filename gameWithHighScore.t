@@ -45,16 +45,16 @@ record
     fright : boolean
 end record
 
-% Pacman and Ghosts (using records :D !)
+% Pacman and Ghosts (using records)
 var Pac : Main
 var Ghost : array 1 .. 4 of Main
 
-% Constants (I remembered to make them all uppercase (FINALLY :D))
+% Constants 
 const SHORTESTPATH : real := 1000 / 60
 % Number of scores for highscores 
 const NUMBEROFSCORES : int := 5 
 
-%Setting up FONTs (Like the Pacman FONT?) 
+%Setting up FONTs 
 const FONT := Font.New ("Emulogic:17")
 const FONT1 := Font.New ("Emulogic:30")
 const FONT2 := Font.New ("namco regular:6")
@@ -73,7 +73,7 @@ var restrictingGhost, restrictingPath, restrictingPacman, closest, delayNum : re
 var ghostMode, username : string
 var win, death, continue, instructions, closeAllWindows : boolean
 
-% Arrays (which will give me a level 4 right :D ) 
+% Arrays 
 % Reflective of the 4 directions. Helps determine which direction the character will go at an intersection. 
 var distanceTarget : array 1 .. 4 of real
 % Ghost eyes (up, down, right, left) 
