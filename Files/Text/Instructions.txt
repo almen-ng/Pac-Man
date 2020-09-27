@@ -1,0 +1,16 @@
+You will be playing as Pac-Man. 
+
+1. The goal of the game is to collect 
+all the food on the tiles without 
+getting eaten by the monsters chasing 
+you.
+2. Use arrow keys to navigate Pac-Man 
+throughout the maze. 
+3. Collect the larger pieces of food 
+to briefly render monsters defenseless.
+4. You will have 3 tries before losing. 
+5. You get an extra life every 10,000 
+points.
+
+Good luck! 
+
